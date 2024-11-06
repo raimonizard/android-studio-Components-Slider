@@ -40,6 +40,11 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/**
+ * Composició de Slider
+ * @author Raimon Izard
+ * @since 06-11-2024
+ */
 @Composable
 fun MyProSlider(modifier: Modifier) {
     var sliderValue: Float by remember { mutableStateOf(0f) }
@@ -63,6 +68,11 @@ fun MyProSlider(modifier: Modifier) {
     }
 }
 
+/**
+ * Composició de RangeSlider
+ * @author Raimon Izard
+ * @since 06-11-2024
+ */
 @Composable
 fun MyRangeSlider(modifier: Modifier) {
     var currentRange by remember { mutableStateOf(2f..5f) }
